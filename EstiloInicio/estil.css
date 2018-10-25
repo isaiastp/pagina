@@ -1,0 +1,279 @@
+html, body{
+    bottom:0%;
+    padding:0%;
+    margin:0%;
+    background-color: white;
+}
+
+header{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: relative;
+    width:100%;
+    background-color:black;
+}
+@font-face {
+font-family: Catamaran;
+src: url(Catamaran-ExtraLight.ttf)}
+.logo{
+    float: left;
+    padding-top: 0.7vw;
+    padding-left: 3vw;
+    width:6vw;
+}
+
+footer{
+    width:100%;
+    height: 25%;
+    position: absolute;
+    background-color: black;
+    margin-top: 0%;
+}
+.contenedor{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    display: block;
+
+}
+nav{
+    text-align: center;
+    width:100%;
+    margin: 0 auto;
+    position: relative;
+}
+.menus li{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.6vw;
+    margin-right: 3vw;
+    display: inline-block;
+}
+.dis:hover{
+    color:white;
+    background-color:black;
+    font-size: 125%;
+    transition: color 0.1s linear 0.1s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.anun{
+    font-family: 'SairaExtraCondensed', sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    margin-top: 2vw;  
+    width:97vw;
+}
+.anun h3{
+    margin-top: -6%;
+    color:#132639;
+    font-size: 3vw;
+}
+
+a:link {text-decoration:none; color: white;} 
+a:visited {text-decoration:none; color:white;} 
+a:active {background:#EEEEEE}
+
+.Dispositivos{
+    display:block;
+    position: relative;
+    top:80px;
+    max-width: 100%;
+}
+.grat:hover{
+    color:black;
+    background-color:#99CC00;
+}
+.BotonSlider:hover{
+    color:black;
+    background-color:#99CC00;
+}
+.mas:hover{
+    color:black;
+    background-color:#99CC00;
+}
+
+.fac{
+    margin-left: 50%;
+    width: 7%;
+}
+.you{
+    margin-left: 7%;
+    width: 7%;
+}
+.inst{
+    margin-left: 7%;
+    width: 7%;
+}
+.fac:hover, .you:hover, .inst:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.espac{
+    display: block;
+    position: relative;
+    padding-top: 12%;
+    max-width: 100%; 
+}
+#espacio, #tierra{
+    font-family: 'SairaExtraCondensed', sans-serif;
+    font-size: 280%;
+    text-align: center;
+    padding-top: 5%;
+}
+.espac h3{
+    width:75vw;
+}
+.present{
+    display:block;
+    position: relative;
+    padding-top: 15%;
+    max-width: 100%; 
+}
+.grat{
+    font-family: 'SairaExtraCondensed', sans-serif;
+	width: 15%;
+    height: 8%;
+	background-color: black;
+    position: relative;
+    margin-top: 2%;
+    border:none;
+    font-size: 2vw;
+    color:white;
+    margin-left: 42%;
+    border-radius: 9px;
+}
+.mas{
+    font-family: 'SairaExtraCondensed', sans-serif;
+	width: 15%;
+	background-color: black;
+    position: relative;
+    margin-top: 2%;
+    border:none;
+    margin-left: 42%;
+    border-radius: 9px;
+    font-size: 2vw;
+    color: white;
+}
+.TextSlider{
+    font-family: 'Oswald';
+    font-family: 'Dosis', sans-serif;
+    font-size: 4vw;
+	width: 29vw;
+    color: white;
+    position: absolute;
+    top:12vw;
+    margin-left: 7vw;
+    
+}
+.fad{
+    opacity: 0.4;
+    filter:  alpha(opacity=300);
+    position: absolute;
+    top:7.3vw;
+    height:41.3vw;
+    width:40vw;
+    margin-left: 0.3vw;
+}
+.BotonSlider{
+    font-size: 2vw;
+    font-family: 'SairaExtraCondensed', sans-serif;
+    margin:auto;
+    position:absolute;
+	width: 13vw;
+    height: 4vw;
+	background-color:black;
+    top:36vw;
+    border:none;
+    color:white;
+    margin-left: 12vw;
+    border-radius: 25px;
+}
+.icon{
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 30%;
+}
+p{
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    text-align: center;
+    color:white;
+    font-size: 8vw;
+}
+@font-face {
+font-family: SairaExtraCondensed;
+src: url(SairaExtraCondensed-Regular.ttf)
+}
+#S1:hover, #S2:hover, #S3:hover{
+     -moz-transform: scale(1.1);
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+     -moz-transition: all 0.3s;
+     -webkit-transition: all 0.3s;
+      transition: all 0.6s;
+}
+.lateral{
+    max-width: 100vw;
+    padding-top: 20%;
+    display:inline-block;
+    padding-left: -1%;
+}
+#explora{
+    font-family: SairaExtraCondensed;
+    color:gray;
+    font-size: 140%;
+    text-align: center;
+}
+#Disponible{
+    font-family: SairaExtraCondensed;
+    padding-top: 1vw;
+    font-size: 4vw;
+    color: #132639;
+    text-align: center;
+    position: relative;
+}
+#cop{
+    font-family: SairaExtraCondensed;
+    font-size: 100%;
+}
+
+.logos{
+    padding-top: 7%;
+    text-align: center;
+}
+#Logo{
+    text-align: center;
+    padding-left: 6%;
+}
+#Logo:hover, #Vive:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.6s;
+}
+#aprende{
+    color:#132639;
+    font-family: SairaExtraCondensed;
+    font-weight: bold;
+    font-size: 350%;
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: -17%;
+}
+#latierra{
+    color:gray;
+    padding-top: 10%;
+    font-family: SairaExtraCondensed;
+    font-size: 150%;
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+}
