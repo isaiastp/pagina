@@ -45,7 +45,7 @@
             <img class="logo" src="Imagenes/vrlog.png">
             <nav>
                 <ul class="menus">
-                    <li><a href="Inicio.php" class="dis">Inicio</a></li>
+                    <li><a href="login.php" class="dis">Iniciar sesion</a></li>
                     <li><a class="Reg">Registrate</a></li>
                 </ul>
             </nav>

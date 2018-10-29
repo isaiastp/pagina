@@ -33,7 +33,6 @@
                     <li><a href="Paquetes.html" class="dis">Paquetes</a></li>
                     <li><a href="Descargas.html" class="dis">Descargas</a></li>
                     <li><a href="Educacion.html" class="dis">Educacion</a></li>
-                    <li><a href="Registro.php" class="dis">Registrate</a></li>
                 </ul>
             </nav>
         </header>
