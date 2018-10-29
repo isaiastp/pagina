@@ -59,7 +59,7 @@
             <nav>
                 <ul class="menus">
                     <li><a href="Inicio.php" class="dis">Inicio</a></li>
-                    <li><a class="Reg">Registrate</a></li>
+                    <li><a class="Reg" href="Registro.php">Registrate</a></li>
                 </ul>
             </nav>
         </header>
@@ -71,7 +71,6 @@
    			<div> <label class="cuadro">Usuario: </label> <input type="text" name = "username"/></div>
     		<div><label class="cuadro">Contraseña: </label> <input type="password" name = "password" /></div>
    			 <div><input class="btnAceptar"type="submit" name ="iniciar" value="Iniciar Sesion"/></div>
-		<div><li><a href="Registro.php" class="dis">Registrate</a></li></div>
   	</div>
 	</form>
         <script type="text/javascript" src="JavaScript/script.js"></script>
